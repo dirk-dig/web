@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questrip</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Navi_custom.js"></script>
+    <script src="js/topFunction.js"></script>
+  </head>
+  <body>
+    <nav id="header" class="navbar navbar-fixed-top">
+      <div id="header-container" class="container navbar-container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                      aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a id="brand" class="navbar-brand" href="index.html">QUESTRIP</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">HOME</a></li>
+                  <li><a href="article.html">記事一覧</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a id="search" class="btn btn-default btn-outline btn-circle collapsed"
+                         data-toggle="collapse" href="#nav-collapse3" aria-expanded="false"
+                         aria-controls="nav-collapse3">Search</a></li>
+              </ul>
+              <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse3">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" />
+                    </div>
+                    <button type="submit" class="btn btn-danger"><span class="glyphicon
+                    glyphicon-search" aria-hidden="true"></span></button>
+                </form>
+              </div>
+          </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- Page Header -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">誰と行く？</h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-6 portfolio-item">
+                        <h3>
+                            <a href="cafe_family.html">家族</a>
+                        </h3>
+                        <a href="cafe_family.html">
+                            <img class="img-responsive"
+                                 src="https://static1.squarespace.com/static/52b8bc8de4b089a76bb35de5/t/55f9cbcde4b00964f1c17bee/1442433999689/Family+Vacation+in+New+York+City+%7C+NYC+Vacation+Photographer"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <h3>
+                            <a href="cafe_friends.html">友達</a>
+                        </h3>
+                        <a href="cafe_friends.html">
+                            <img class="img-responsive"
+                                 src="https://previews.123rf.com/images/oneinchpunch/oneinchpunch1510/oneinchpunch151000116/47119783-Two-female-friends-taking-a-picture-of-New-York-and-Brooklyn-Bridge-Best-friends-traveling-and-recor-Stock-Photo.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-6 portfolio-item">
+                        <h3>
+                            <a href="cafe_love.html">恋人</a>
+                        </h3>
+                        <a href="cafe_love.html">
+                            <img class="img-responsive"
+                                 src="http://footage.framepool.com/shotimg/689711371-gazing-road-trip-looking-up-face-to-face-procedure.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <h3>
+                            <a href="cafe_self.html">一人</a>
+                        </h3>
+                        <a href="cafe_self.html">
+                            <img class="img-responsive"
+                                 src="http://static3.businessinsider.com/image/58c06efc6e200469108b4b12/a-woman-who-retired-at-28-with-2-million-in-the-bank-explains-how-she-saved-70-of-her-income-in-new-york-city.jpg"
+                                 alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            </div><!--/.col-xs-12.col-sm-9-->
+        </div><!--/row-->
+
+        <hr>
+
+        <footer>
+            <p>© </p>
+        </footer>
+
+    </div><!--/.container-->
+  </body>
+</html>

@@ -1,0 +1,166 @@
+/*commom*/
+a{
+    text-decoration: none;
+}
+/*
+p{
+    line-height: 20px;
+    color: #333333;
+}
+*/
+/*button*/
+.btn{
+    display: inline-block;
+    width: 290px;
+    line-height: 45px;
+    background: #fff;
+    text-align: center;
+    color: #e74c3c;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity:1;
+}
+/*img-shadow*/
+img.shadow{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/*body*/
+body{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/*header*/
+header{
+    background: url('../../MySite/img/header_back.jpg');
+    background-size: cover;
+}
+header .container{
+    width: 820px;
+    margin: 0 auto;
+    height: 320px;
+    padding-top: 10px;
+    position: relative;
+    overflow:hidden;
+}
+header h1{
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+header p{
+    padding-top: 50px;
+    color: #fff;
+}
+header img{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+/* リスト全体 */
+header ul
+   {
+    width:1000px;          /* リスト全体の幅 */
+    height:35px;          /* リスト全体の高さ */
+    list-style:none;      /* リストマークを無しにする */
+    text-align:center;    /* 文字を中央 */
+    font-size:130%;       /* 文字を大きく */
+    font-weight:bold;     /* 文字を太く */
+    line-height:150%;     /* 行の高さを調整 */
+   }
+
+/* 各項目 */
+header li
+   {
+    width:200px;          /* 項目の幅 */
+    height:35px;          /* 項目の高さ */
+    float:left;           /* 各項目を左側から回り込み */
+   }
+
+/* リンク部分 */
+header li a
+   {
+    display:block;          /* リンク範囲をブロックに変換 */
+    width:100%;             /* リンク範囲（幅）をリスト項目範囲全て */
+    height:100%;            /* リンク範囲（高さ）をリスト項目範囲全て */
+    background-color: #0000C0;     /* リンク範囲の背景画像設定 */
+    background-repeat:no-repeat;      /* 背景画像繰り返し表示しない */
+    color:#ffffff;                    /* リンク文字色 */
+    opacity:0.9;
+   }
+header li a:link
+   {color:#ffffff;}                 /* まだ見ていないリンク色 */
+header li a:visited
+   {color:#ffffff;}                 /* 既に見たリンク色 */
+header li a:hover
+   {
+    opacity:1;
+   }
+
+/*section*/
+section{
+    padding: 90px 0;
+}
+/*奇数行*/
+section:nth-child(odd){
+    background: #f8f8f8;
+}
+section.container{
+    width: 820px;
+    margin: 0 auto;
+}
+section h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0 0 90px;
+
+}
+section:not(.about)
+h2:after{
+    display: block;
+    font-size: 18px;
+    color: #aaa;
+    padding-top: 10px;
+}
+/*product*/
+.products h2:after{
+    content: '質にこだわった商品を提供';
+}
+.desc{
+    width:360px;
+}
+.pull-right{
+    float: right;
+    padding-left: 40px;
+}
+.pull-left{
+    float: left;
+    padding-right: 40px;
+}
+.row{
+    overflow: hidden;
+    margin-bottom:90px;
+}
+.row:last-child{
+    margin-bottom: 0;
+}
+/*process*/
+.process h2:after{
+    content: '従業員の6割が品質管理関係業務に従事'
+}
+/*about*/
+
+.about{
+    background: url('../../MySite/img/header_back.jpg');
+    background-size: cover;
+    color: #fff;
+}
+.about.container{
+
+}
